@@ -211,7 +211,10 @@ console.log(countMovies(movies));
 /* ESERCIZIO 11 (map)
   Scrivi una funzione per creare un array con solamente i titoli dei film contenuti nell'array fornito.
 */
-
+function getAllTitles(movies) {
+  return movies.map((movie) => movie.Title);
+}
+console.log(getAllTitles(movies));
 /* ESERCIZIO 12 (filter)
   Scrivi una funzione per ottenere dall'array fornito solamente i film usciti nel millennio corrente.
 */
